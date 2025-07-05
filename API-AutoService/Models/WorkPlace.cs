@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API_Coworking.Models
+namespace API_BlazorForSome.Models
 {
     public class WorkPlace
     {

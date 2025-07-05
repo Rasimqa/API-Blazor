@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace API_Coworking.Models
+namespace API_BlazorForSome.Models
 {
     public class User
     {

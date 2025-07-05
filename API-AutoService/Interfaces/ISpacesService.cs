@@ -1,6 +1,6 @@
-﻿using API_Coworking.Models;
+﻿using API_BlazorForSome.Models;
 
-namespace API_Coworking.Interfaces
+namespace API_BlazorForSome.Interfaces
 {
     public interface ISpacesService
     {

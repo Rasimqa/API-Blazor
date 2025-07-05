@@ -1,10 +1,10 @@
 
-using API_Coworking.DBContext;
-using API_Coworking.Interfaces;
-using API_Coworking.Service;
-using API_Coworking.DBContext;
-using API_Coworking.Interfaces;
-using API_Coworking.Service;
+using API_BlazorForSome.DBContext;
+using API_BlazorForSome.Interfaces;
+using API_BlazorForSome.Service;
+using API_BlazorForSome.DBContext;
+using API_BlazorForSome.Interfaces;
+using API_BlazorForSome.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,7 +28,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSignalR();
 
 
-builder.Services.AddDbContext<CoworkingServiceDBContext>(options =>
+builder.Services.AddDbContext<ArmyPetServiceDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TestDbString")), ServiceLifetime.Scoped);
 
 builder.Services.AddScoped<ISpacesService, SpaceService>();

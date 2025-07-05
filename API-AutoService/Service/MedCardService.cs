@@ -5,11 +5,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_BlazorForSome.Service
 {
-    public class SpaceService : ISpacesService
+    public class MedCardService : IMedCardSerivce
     {
         private readonly ArmyPetServiceDBContext _context;
 
-        public SpaceService(ArmyPetServiceDBContext context)
+        public MedCardService(ArmyPetServiceDBContext context)
         {
             _context = context;
         }

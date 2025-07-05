@@ -1,10 +1,10 @@
-﻿using API_Coworking.DBContext;
-using API_Coworking.Interfaces;
-using API_Coworking.Models;
-using API_Coworking.Service;
+﻿using API_BlazorForSome.DBContext;
+using API_BlazorForSome.Interfaces;
+using API_BlazorForSome.Models;
+using API_BlazorForSome.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API_Coworking.Controllers
+namespace API_BlazorForSome.Controllers
 {
     [Route("api/WorkPlace")]
     [ApiController]

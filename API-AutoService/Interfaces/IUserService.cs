@@ -1,7 +1,7 @@
-﻿using API_Coworking.Models;
-using API_Coworking.Service;
+﻿using API_BlazorForSome.Models;
+using API_BlazorForSome.Service;
 
-namespace API_Coworking.Interfaces
+namespace API_BlazorForSome.Interfaces
 {
     public interface IUserService
     {

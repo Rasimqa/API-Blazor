@@ -1,8 +1,8 @@
-﻿using API_Coworking.Models;
+﻿using API_BlazorForSome.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace API_Coworking.Requests
+namespace API_BlazorForSome.Requests
 {
     public class CreateWorkPlacesRequest
     {

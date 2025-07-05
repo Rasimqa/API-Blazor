@@ -1,17 +1,17 @@
-﻿using API_Coworking.DBContext;
-using API_Coworking.Interfaces;
-using API_Coworking.Models;
+﻿using API_BlazorForSome.DBContext;
+using API_BlazorForSome.Interfaces;
+using API_BlazorForSome.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Http.HttpResults;
 
-namespace API_Coworking.Service
+namespace API_BlazorForSome.Service
 {
     public class WorkPlacesService : IWorkPlacesService
     {
-        private readonly CoworkingServiceDBContext _context;
+        private readonly ArmyPetServiceDBContext _context;
 
-        public WorkPlacesService(CoworkingServiceDBContext context)
+        public WorkPlacesService(ArmyPetServiceDBContext context)
         {
             _context = context;
         }

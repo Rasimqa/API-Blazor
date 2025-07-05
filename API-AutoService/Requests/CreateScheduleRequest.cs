@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API_BlazorForSome.Models
+namespace API_BlazorForSome.Requests
 {
-    public class Schedule
+    public class CreateScheduleRequest
     {
         [Key]
         public int id { get; set; }
@@ -12,6 +11,5 @@ namespace API_BlazorForSome.Models
         public string portion_size { get; set; } = string.Empty;
         public DateTime schedule_time { get; set; }
         public bool active { get; set; }
-
     }
 }

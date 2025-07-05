@@ -1,16 +1,21 @@
-﻿using API_Coworking.Models;
+﻿using API_BlazorForSome.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace API_Coworking.DBContext
+namespace API_BlazorForSome.DBContext
 {
-    public class CoworkingServiceDBContext : DbContext
+    public class ArmyPetServiceDBContext : DbContext
     {
-        public CoworkingServiceDBContext(DbContextOptions<CoworkingServiceDBContext> options) : base(options)
+        public ArmyPetServiceDBContext(DbContextOptions<ArmyPetServiceDBContext> options) : base(options)
         {
         }
 
         public DbSet<Spaces> Spaces { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<WorkPlace> WorkPlace { get; set; }
+        public DbSet<MedCard> MedCard { get; set; }
+        public DbSet<Mischief> Mischief { get; set; }
+        public DbSet<Pet> Pet { get; set; }
+        public DbSet<Training> Training { get; set; }
+        public DbSet<Schedule> Schedule { get; set; }
     }
 }

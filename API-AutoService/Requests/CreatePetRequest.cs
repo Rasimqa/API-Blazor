@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API_BlazorForSome.Models
+namespace API_BlazorForSome.Requests
 {
-    public class Pet
+    public class CreatePetRequest
     {
+
         [Key]
         public int id { get; set; }
         public int userid { get; set; }
@@ -12,6 +12,5 @@ namespace API_BlazorForSome.Models
         public string type { get; set; } = string.Empty;
         public DateTime birth_date { get; set; }
         public int battle_rating { get; set; }
-
     }
 }

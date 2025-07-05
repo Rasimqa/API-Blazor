@@ -1,15 +1,15 @@
-﻿using API_Coworking.DBContext;
-using API_Coworking.Interfaces;
-using API_Coworking.Models;
+﻿using API_BlazorForSome.DBContext;
+using API_BlazorForSome.Interfaces;
+using API_BlazorForSome.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace API_Coworking.Service
+namespace API_BlazorForSome.Service
 {
     public class UserService : IUserService
     {
-        private readonly CoworkingServiceDBContext _context;
+        private readonly ArmyPetServiceDBContext _context;
 
-        public UserService(CoworkingServiceDBContext context)
+        public UserService(ArmyPetServiceDBContext context)
         {
             _context = context;
         }

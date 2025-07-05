@@ -4,8 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>API-BlazorForSome</RootNamespace>
-    <AssemblyName>API-BlazorForSome</AssemblyName>
+    <RootNamespace>API_BlazorForSome</RootNamespace>
+    <AssemblyName>API_BlazorForSome</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

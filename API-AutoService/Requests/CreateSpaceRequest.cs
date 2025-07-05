@@ -1,4 +1,4 @@
-﻿namespace API_Coworking.Requests
+﻿namespace API_BlazorForSome.Requests
 {
     public class CreateSpaceRequest
     {
